@@ -1,4 +1,0 @@
-DELETE Products FROM
-(SELECT TOP 2 * FROM Products
-WHERE Manufacturer='Apple') AS Selected
-WHERE Products.Id = Selected.Id
